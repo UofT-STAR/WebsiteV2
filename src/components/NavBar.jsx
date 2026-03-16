@@ -6,7 +6,7 @@ import { StarsCanvas } from 'star-background';
 
 export function NavBar({ onToggle }) {
 	const [open, setOpen] = useState(false);
-	
+
 	const toggleNav = () => setOpen(!open.current)
 
 	return (
@@ -33,29 +33,29 @@ export function NavBar({ onToggle }) {
 		</a>
 		</div>
 		<div id="rightNavBar" className="flex flex-1 justify-end">
-			<div id="DesktopNavBar" className="hidden lg:flex flex-1 z-50 justify-end gap-2">
-				<a href="https://utstar.ca">
-					<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">About</Button>
-				</a>
-				<a href="https://utstar.ca">
-					<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">Projects</Button>
-				</a>
-				<a href="https://utstar.ca">
-					<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">Events</Button>
-				</a>
-				<a href="https://utstar.ca">
-					<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">Team</Button>
-				</a>
-				<a href="https://utstar.ca">
-					<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">Contact</Button>
-				</a>
-				<a href="https://utstar.ca">
-					<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">Trivia</Button>
-				</a>
-			</div>
-			<IconButton variant="text" color="white" className="lg:hidden flex-shrink-0" onClick={onToggle}>
-				<Bars3Icon className="h-8 w-8" strokeWidth={2} />
-			</IconButton>
+		<div id="DesktopNavBar" className="hidden lg:flex flex-1 z-50 justify-end gap-2">
+		<a href="https://utstar.ca">
+		<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">About</Button>
+		</a>
+		<a href="https://utstar.ca">
+		<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">Projects</Button>
+		</a>
+		<a href="https://utstar.ca">
+		<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">Events</Button>
+		</a>
+		<a href="https://utstar.ca">
+		<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">Team</Button>
+		</a>
+		<a href="https://utstar.ca">
+		<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">Contact</Button>
+		</a>
+		<a href="https://utstar.ca">
+		<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">Trivia</Button>
+		</a>
+		</div>
+		<IconButton variant="text" color="white" className="lg:hidden flex-shrink-0" onClick={onToggle}>
+		<Bars3Icon className="h-8 w-8" strokeWidth={2} />
+		</IconButton>
 		</div>
 		</header>
 	);
