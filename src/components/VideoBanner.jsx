@@ -10,7 +10,7 @@ export const VideoBanner = () => {
     const width = window.innerWidth;
     const mobile = width < 720;
 
-    setVid(mobile ? "/videos/launch-mobile.mp4" : "/videos/launch-desktop.mp4");
+    setVid(mobile ? "/videos/launch-uhd.mp4" : "/videos/launch-uhd.mp4");
     setPlace(mobile ? "/images/launch-mobile.webp" : "/images/launch-desktop.webp");
 
     const img = new Image();
