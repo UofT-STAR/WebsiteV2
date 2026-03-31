@@ -33,7 +33,7 @@ export const VideoBanner = () => {
           ? 'opacity-100 translate-y-0 delay-1000' 
           : 'opacity-0 translate-y-12'
       }`}>
-        <Typography className="text-6xl md:text-9xl font-black text-white">
+        <Typography className="text-6xl md:text-9xl font-black text-white tracking-tight italic">
           utstar
         </Typography>
         <div className="h-1 w-24 bg-white my-4" />
