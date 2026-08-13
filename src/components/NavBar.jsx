@@ -50,6 +50,9 @@ export function NavBar({ onToggle }) {
 		<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">Contact</Button>
 		</a>
 		<a href="https://utstar.ca">
+		<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">Sponsors</Button>
+		</a>
+		<a href="https://utstar.ca">
 		<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">Trivia</Button>
 		</a>
 		</div>
