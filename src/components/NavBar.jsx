@@ -1,13 +1,13 @@
-import React from "react";
-import { useState } from "react";
-import { IconButton, Typography, Button, Drawer } from "@material-tailwind/react";
-import { Bars3Icon, DocumentTextIcon, ShareIcon } from "@heroicons/react/24/outline";
+// import React from "react";
+// import { useState } from "react";
+import { IconButton, Typography, Button } from "@material-tailwind/react";
+import { Bars3Icon } from "@heroicons/react/24/outline";
 import { StarsCanvas } from 'star-background';
 
 export function NavBar({ onToggle }) {
-	const [open, setOpen] = useState(false);
+	// const [open, setOpen] = useState(false);
 
-	const toggleNav = () => setOpen(!open.current)
+	// const toggleNav = () => setOpen(!open.current)
 
 	return (
 		<header className={
@@ -48,6 +48,9 @@ export function NavBar({ onToggle }) {
 		</a>
 		<a href="https://utstar.ca">
 		<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">Contact</Button>
+		</a>
+		<a href="https://utstar.ca">
+		<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">Sponsors</Button>
 		</a>
 		<a href="https://utstar.ca">
 		<Button className="rounded-full transition-all duration-300 bg-gray-800/30 hover:bg-gray-800/50">Trivia</Button>

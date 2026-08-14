@@ -4,7 +4,7 @@ import { MobileSidebar } from './components/MobileSidebar'
 import { VideoBanner } from './components/VideoBanner'
 
 function App() {
-	const [count, setCount] = useState(0)
+	// const [count, setCount] = useState(0)
 
 	const [isOpen, setIsOpen] = useState(false);
 	const toggleNav = () => setIsOpen((prev) => !prev);
