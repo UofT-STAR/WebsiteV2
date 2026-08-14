@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Typography, Button } from "@material-tailwind/react";
 
 export const VideoBanner = () => {

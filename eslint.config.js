@@ -41,6 +41,9 @@ export default [
         'warn',
         { allowConstantExport: true, },
       ],
+
+      // stupid legacy prop-types validation rule
+      'react/prop-types': 'off',
     },
     settings: {
       react: {

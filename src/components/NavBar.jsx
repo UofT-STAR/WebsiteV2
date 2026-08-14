@@ -1,13 +1,13 @@
-import React from "react";
-import { useState } from "react";
-import { IconButton, Typography, Button, Drawer } from "@material-tailwind/react";
-import { Bars3Icon, DocumentTextIcon, ShareIcon } from "@heroicons/react/24/outline";
+// import React from "react";
+// import { useState } from "react";
+import { IconButton, Typography, Button } from "@material-tailwind/react";
+import { Bars3Icon } from "@heroicons/react/24/outline";
 import { StarsCanvas } from 'star-background';
 
 export function NavBar({ onToggle }) {
-	const [open, setOpen] = useState(false);
+	// const [open, setOpen] = useState(false);
 
-	const toggleNav = () => setOpen(!open.current)
+	// const toggleNav = () => setOpen(!open.current)
 
 	return (
 		<header className={
